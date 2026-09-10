@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -d genproductions ]; then
-  git clone https://github.com/jsw-fnal/genproductions.git -b feature/madjax --depth 1
+  git clone https://github.com/jsamudio/genproductions.git -b feature/madjax --depth 1
 fi
 
 # in case this is not already done, setup cms packaging commands
