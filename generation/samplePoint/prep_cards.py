@@ -129,7 +129,7 @@ def main():
     bundle_card("run_card.dat", f"{args.name}_run_card.dat")
     bundle_card("reweight_card.dat", f"{args.name}_reweight_card.dat")
     bundle_card("extramodels.dat", f"{args.name}_extramodels.dat")
-    bundle_card("smeft_fix.patch", "smeft_fix.patch")
+    bundle_card("fix_model.patch", f"{args.name}_fix_model.patch")
 
     print(f"Success! Cards bundle created at: {os.path.abspath(target_dir)}/")
 
